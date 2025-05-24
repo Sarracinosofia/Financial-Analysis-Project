@@ -11,7 +11,7 @@ This data science project performs a comparative analysis of the stock performan
 
 ## 📁 Structure
 
-Financial-Analysis-Project/
+'''Financial-Analysis-Project/
 │
 ├── data/
 │   ├── crypto/
@@ -27,22 +27,20 @@ Financial-Analysis-Project/
 │   └── tables/
 │
 ├── gitignore
-└── README.md
+└── README.md'''
 
 
 ## 🚀 Tools Used
+
 Programming language: Python
-
 Data manipulation: pandas, NumPy
-
 Data extraction: yfinance
-
 Visualization: Matplotlib, Seaborn
-
 Environment: Jupyter Notebook
 
 
-📊 Results
+## 📊 Results
+
 Visualizations of stock returns, volatility, and correlations are saved under outputs/graphs/
 
 Summary tables and metrics are saved under outputs/tables/
