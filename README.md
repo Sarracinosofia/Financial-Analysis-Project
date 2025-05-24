@@ -9,9 +9,9 @@ This data science project performs a comparative analysis of the stock performan
 - Evaluate risk-adjusted performance using Sharpe Ratio
 - Provide actionable insights for portfolio strategy
 
-## 📁 Structure
+## 📁 Project Structure
 
-'''Financial-Analysis-Project/
+```Financial-Analysis-Project/
 │
 ├── data/
 │   ├── crypto/
@@ -27,7 +27,7 @@ This data science project performs a comparative analysis of the stock performan
 │   └── tables/
 │
 ├── gitignore
-└── README.md'''
+└── README.md```
 
 
 ## 🚀 Tools Used
