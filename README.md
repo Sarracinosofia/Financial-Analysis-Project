@@ -31,6 +31,26 @@ Financial-Analysis-Project/
 └── README.md
 ```
 
+## 🚀 Tools Used
+
+Programming language: Python
+
+Data manipulation: pandas, NumPy
+
+Data extraction: yfinance
+
+Visualization: Matplotlib, Seaborn
+
+Environment: Jupyter Notebook
+
+
+
+## 📊 Results
+
+Visualizations of stock returns, volatility, and correlations are saved under outputs/graphs/
+
+Summary tables and metrics are saved under outputs/tables/
+
 
 
 
