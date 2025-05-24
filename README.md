@@ -11,16 +11,20 @@ This data science project performs a comparative analysis of the stock performan
 ## 📁 Structure
 
 Financial-Analysis-Projec
+
 ├── data/
+
 │ └── crypto
 │ └── etf
 │ └── stock
 │ └── cleaned_stock_data.csv
+
 ├── notebooks/
 │ └── stock_analysis.ipynb
 ├── outputs/
 │ ├── graphs/
 │ └── tables/
+
 ├── outputs_graficos_eda
 ├── gitignore
 └── README.md
