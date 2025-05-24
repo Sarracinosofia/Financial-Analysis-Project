@@ -11,7 +11,8 @@ This data science project performs a comparative analysis of the stock performan
 
 ## 📁 Project Structure
 
-```Financial-Analysis-Project/
+```
+Financial-Analysis-Project/
 │
 ├── data/
 │   ├── crypto/
@@ -27,7 +28,8 @@ This data science project performs a comparative analysis of the stock performan
 │   └── tables/
 │
 ├── gitignore
-└── README.md```
+└── README.md
+```
 
 
 
