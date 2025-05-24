@@ -1,5 +1,6 @@
 # 📊 Financial Analysis of Tech Companies (2020–2024)
 
+
 This data science project performs a comparative analysis of the stock performance of five major U.S. technology companies — Apple (AAPL), Microsoft (MSFT), Amazon (AMZN), Tesla (TSLA), and Alphabet (GOOGL) — from 2020 to 2024.
 
 ## 📌 Project Objectives
@@ -10,29 +11,41 @@ This data science project performs a comparative analysis of the stock performan
 
 ## 📁 Structure
 
-Financial-Analysis-Projec
-
+Financial-Analysis-Project/
+│
 ├── data/
-
-│ └── crypto
-│ └── etf
-│ └── stock
-│ └── cleaned_stock_data.csv
-
+│   ├── crypto/
+│   ├── etf/
+│   ├── stock/
+│   └── cleaned_stock_data.csv
+│
 ├── notebooks/
-│ └── stock_analysis.ipynb
+│   └── stock_analysis.ipynb
+│
 ├── outputs/
-│ ├── graphs/
-│ └── tables/
-
-├── outputs_graficos_eda
+│   ├── graphs/
+│   └── tables/
+│
 ├── gitignore
 └── README.md
 
 
 ## 🚀 Tools Used
-- Python
-- pandas, NumPy, yfinance
-- Matplotlib, Seaborn
-- Jupyter Notebook
+Programming language: Python
+
+Data manipulation: pandas, NumPy
+
+Data extraction: yfinance
+
+Visualization: Matplotlib, Seaborn
+
+Environment: Jupyter Notebook
+
+
+📊 Results
+Visualizations of stock returns, volatility, and correlations are saved under outputs/graphs/
+
+Summary tables and metrics are saved under outputs/tables/
+
+
 
