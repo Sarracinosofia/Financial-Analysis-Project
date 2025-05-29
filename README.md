@@ -35,7 +35,7 @@ This data science project performs a multi-stage analysis of the stock performan
 
 ---
 
-### 🔹 [Stage 2 – Technical Analysis](./2nd_Analysis)
+### 🔹 [Stage 2 – Technical Analysis](./2_Technical_Analysis)
 
 > Engineer time-based technical indicators and identify periods of market anomalies.
 
