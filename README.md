@@ -15,7 +15,7 @@ This data science project performs a multi-stage analysis of the stock performan
 ## 🚀 Tools Used
 
 - Python (Jupyter Notebook)
-- pandas, NumPy, yfinance
+- Pandas, NumPy, yfinance
 - Matplotlib, Seaborn
 - Technical indicator logic built from scratch (no pre-built libraries)
 
