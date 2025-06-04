@@ -61,10 +61,31 @@ A well-documented, multi-step financial analysis pipeline producing a **structur
 
 ---
 
-## 🔜 Stage 3 – (Coming Soon)
+## 🔹 Stage 3 – Predictive Modeling
 
-> Predictive modeling using supervised learning:
-- Target: price direction, volatility regime, or anomaly prediction
-- Models: logistic regression, random forest, XGBoost
-- Feature importance analysis and backtesting
+> Train and evaluate regression models to predict next-day stock returns based on technical indicators.
 
+**Models Used:**
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+**Target variable:**
+- `target_1d` = (Close_t+1 / Close_t) - 1 → next-day return
+
+**Key tasks:**
+- Time-based train/test split (80% train, 20% test)
+- Model training per stock
+- Evaluation using:
+  - Mean Absolute Error (MAE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+- Feature importance visualization (Random Forest & XGBoost)
+
+**Outputs:**
+- Model performance charts
+- Saved models: `outputs/trained_models/`
+- Metric comparison: `outputs/models/comparison_results_clean.csv`
+- Feature importance plots: `outputs/graphs/models/`
+
+> While results showed low predictive power (low R²), this phase helped consolidate modeling techniques and opened avenues for future improvements such as feature optimization or alternative targets.
