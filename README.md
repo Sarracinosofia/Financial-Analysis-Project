@@ -61,7 +61,7 @@ A well-documented, multi-step financial analysis pipeline producing a **structur
 
 ---
 
-## 🔹 Stage 3 – Predictive Modeling
+## 🔹 [Stage 3 – Predictive modeling](./3_MLprep)
 
 > Train and evaluate regression models to predict next-day stock returns based on technical indicators.
 
