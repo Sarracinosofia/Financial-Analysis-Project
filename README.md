@@ -55,12 +55,6 @@ This data science project performs a multi-stage analysis of the stock performan
 
 ---
 
-## ✅ Current Outcome
-
-A well-documented, multi-step financial analysis pipeline producing a **structured dataset** enriched with engineered features — ready for machine learning in the next stage.
-
----
-
 ## 🔹 [Stage 3 – Predictive modeling](./3_MLprep)
 
 > Train and evaluate regression models to predict next-day stock returns based on technical indicators.
