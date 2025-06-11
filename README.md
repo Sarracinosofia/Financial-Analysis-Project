@@ -83,3 +83,27 @@ This data science project performs a multi-stage analysis of the stock performan
 - Feature importance plots: `outputs/graphs/models/`
 
 > While results showed low predictive power (low R²), this phase helped consolidate modeling techniques and opened avenues for future improvements such as feature optimization or alternative targets.
+
+---
+
+### 🔹 [Stage 4 – Modeling Improvement](./4_Modeling_Improvement)
+
+> Refine predictive modeling through advanced feature engineering, model tuning, and interpretability analysis.
+
+**Key improvements:**
+- Engineered additional features including multiple momentum indicators (momentum_3, momentum_7, momentum_14 and their scaled versions), rolling volatility, MACD histogram/signal, and expanded lag features.
+- Applied hyperparameter tuning for Random Forest and XGBoost regressors, optimizing model performance for each stock.
+- Integrated classification tasks (Logistic Regression, Random Forest Classifier, XGBoost Classifier) for predicting price direction.
+- Performed model interpretability analysis using feature importance and SHAP values to identify the most influential predictors—momentum-based features proved dominant.
+- Conducted a comparative analysis of model performance: XGBoost achieved the lowest error metrics and highest R² scores among regression models; classification accuracy and F1 scores exceeded 98% across all models.
+- Documented project limitations (e.g., lack of fundamental/sentiment data, market regime sensitivity) and provided recommendations for further improvement.
+
+**Outputs:**
+- Cleaned and well-commented final notebook: [`4_Modeling_Improvement.ipynb`](./4_Modeling_Improvement/4_Modeling_Improvement.ipynb)
+- SHAP summary plots and feature importance visualizations
+- Final evaluation and conclusions section
+
+> This stage demonstrates how iterative feature engineering and model optimization can substantially improve predictive power and explainability in financial time series modeling, even within the constraints of purely technical datasets.
+
+---
+
