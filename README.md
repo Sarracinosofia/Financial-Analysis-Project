@@ -107,3 +107,30 @@ This data science project performs a multi-stage analysis of the stock performan
 
 ---
 
+### ✅ Final thoughts & learnings
+
+This project demonstrates the application of end-to-end data science techniques to financial market analysis. Through the use of engineered technical indicators and machine learning models, it was possible to extract insights, detect anomalies, and predict short-term price movements across five major tech stocks.
+
+📌 **Top-performing model:**  
+XGBoost Regressor delivered the strongest performance in regression tasks with an **R² of 0.86**, outperforming Random Forest across all error metrics. In classification, all models surpassed **98% accuracy**, with XGBoost and Random Forest leading the scores.
+
+📈 **Most predictable stock:**  
+Apple (AAPL) showed the most stable behavior and best model performance, while Tesla (TSLA) proved the most volatile and difficult to predict. The other stocks (MSFT, AMZN, GOOGL) showed intermediate predictability.
+
+📊 **Most influential features:**  
+Momentum indicators (especially 3-day and 7-day), Bollinger Bands, and rolling volatility were among the top predictors. RSI had low impact in this setup.
+
+**Limitations:**  
+- Purely technical analysis (no fundamentals or news data).  
+- Data limited to 2020–2024.  
+- No trading costs or portfolio simulation included.  
+- Predictive power may vary in other market conditions.
+
+**Next steps:**  
+- Integrate sentiment, fundamentals, or macroeconomic indicators.  
+- Backtest realistic trading strategies.  
+- Explore LSTM, Transformer-based models for sequential patterns.  
+- Deploy a lightweight dashboard or alert system.
+
+This project stands as a complete showcase of applied data science in finance — with structured notebooks, clear visuals, model evaluation, and documented insights.
+
